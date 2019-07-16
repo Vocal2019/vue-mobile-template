@@ -1,0 +1,83 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.al {
+  text-align: left;
+}
+.ac {
+  text-align: center;
+}
+.ar {
+  text-align: right;
+}
+.mg-auto {
+  margin: 0 auto;
+}
+.hide {
+  display: none;
+}
+.clearfix:before,
+.clearfix:after {
+  /*清楚浮动*/
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1; /*IE/7/6*/
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row-ai-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-row-js-sb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-row-jc-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column-ai-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-column-jc-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-column-js-sb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
